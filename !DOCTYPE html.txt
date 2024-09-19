@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grady's Paragliding Adventures">
+    <title>Grady's Paragliding Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img, .gallery video {
+            width: 45%;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Grady's Paragliding Adventures</h1>
+        <p>Experience the beauty of flight with Grady's thrilling paragliding experiences</p>
+    </header>
+
+    <div class="container">
+        <h2>Photo & Video Gallery</h2>
+        <div class="gallery">
+            <!-- Images -->
+            <img src="IMG_3226.JPEG" alt="Grady Paragliding Photo 1">
+            <img src="IMG_3227.JPEG" alt="Grady Paragliding Photo 2">
+            <img src="IMG_1226.JPEG" alt="Grady Paragliding Takeoff">
+            <img src="IMG_1227.JPEG" alt="Grady Preparing for Takeoff">
+            <img src="IMG_1228.JPEG" alt="Grady Paragliding at Sunset">
+            <img src="IMG_2096.JPEG" alt="Grady's Paragliding Gear">
+            <img src="Mason_Digital_Paragliding.jpg" alt="Paragliding in Action">
+            <img src="Mason_Digital_Paragliding-2.jpg" alt="Paragliding Over the Mountains">
+            <img src="Mason_Digital_Paragliding-3.jpg" alt="Grady Paragliding at Sunset">
+            
+            <!-- More Images -->
+            <img src="IMG_2300.JPEG" alt="Grady Paragliding Photo 3">
+            <img src="IMG_2301.JPEG" alt="Grady Paragliding Photo 4">
+            <img src="IMG_1654.jpeg" alt="Paragliding Above the Landscape">
+
+            <!-- Videos -->
+            <video controls>
+                <source src="IMG_3555.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="IMG_3556.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="IMG_2293.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="IMG_1654.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Grady's Paragliding Adventures. All rights reserved.</p>
+        <p>Contact us at: info@gradysparagliding.com</p>
+    </footer>
+
+</body>
+</html>
